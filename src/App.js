@@ -13,6 +13,8 @@ import AddTrain from './components/Pages/Item/Train/AddTrain';
 import TrainTable from './components/Pages/Item/Train/TrainTable';
 import UsersTable from './components/Pages/Item/Users/Userstables';
 import AdminDashboard from './components/Pages/Item/Admin/AdminDashboard';
+import TableProfile from './components/Pages/Item/Traveller/TableProfile';
+import TravellerProfile from './components/Pages/Item/Traveller/TravellerProfile';
 
 function App() {
   return (
@@ -37,7 +39,9 @@ function App() {
             {/* User */}
             <Route path="/tableuser" element={<UsersTable />} />
 
-
+            {/* Traveller */}
+            <Route path="/ptable" element={<TableProfile />} />
+            <Route path="/traprofile" element={<TravellerProfile />} />
 
             {/* Auth */}
             <Route path="/login" element={<Login />} />
