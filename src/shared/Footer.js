@@ -19,13 +19,13 @@ function Footer() {
         alt="MakeMyTrip Logo"
       />
       <br />
-      <span>MakeMyTrip</span>
+      <span>E-TICKET</span>
     </section>
   </div>
 
   <div className="text-center p-3" style={style}>
-    © 2020 Copyright:
-    <a className="text-white" href="http://localhost:3000/">MakeMyTrip.com</a>
+    © 2023 Copyright:
+    <a className="text-white" href="http://localhost:3000/">E-TICKET.com</a>
   </div>
 </footer>
 
